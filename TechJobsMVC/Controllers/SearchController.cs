@@ -18,8 +18,6 @@ namespace TechJobsMVC.Controllers
         }
 
         // #3: Create an action method to process a search request and render the updated search view.
-
-        //GET: /SearchController/
         public IActionResult Results(string searchType, string searchTerm)
         {
             List<TechJobsMVC.Models.Job> jobs;

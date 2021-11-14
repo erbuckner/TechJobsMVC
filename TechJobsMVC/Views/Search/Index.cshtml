@@ -28,7 +28,7 @@
 
     @{
 //#4: Loop over the search results to display all job fields.
-//Re-used code from View/List/Jobs here
+//Re-used code from View/List/Jobs here - surrounded with if block to prevent NullReferenceException occurring before a user has made a selection.
     }
 
     @if (ViewBag.jobs != null)
